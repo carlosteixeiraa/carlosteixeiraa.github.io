@@ -27,4 +27,4 @@ Se voce fez todos os passos até agora a unica coisa que falta para ver o seu si
 
 ### Links
 
-https://github.com/barryclark/jekyll-now
+<a href="https://github.com/barryclark/jekyll-now">https://github.com/barryclark/jekyll-now</a>
