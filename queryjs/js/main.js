@@ -12,28 +12,28 @@ var queryjs = (function(a) {
     }
     return b;
 })(window.location.search.substr(1).split('&'));
-
-var nome = queryjs['nome']; 
+// Verificar length
+var nome = queryjs['nome'];
 if (nome == "") {
 	nome = "QueryJS";
 }
-if (nome.length > 12) {
+if (nome.length > 16) {
 	nome = "Muito Grande";
 }
 var valin;
-
+// Obter valor input
 function vai() {
 	valin = document.getElementById("inpt").value
 	if (valin == "") {
 		valin = "QueryJS";
 	}
 }
-
+// Butão
 function bte() {
 	vai();
 	window.location.href = "index.html" + "?nome=" + valin
 }
-
+// Mostrar
 function mostrar() {
 	document.getElementById("nome").innerHTML = nome;
 }
