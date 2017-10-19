@@ -1,0 +1,19 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background: #263238;
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-size: 10em;
+  color: #ff5722;
+  text-align: center;
+  margin-top: 15%;
+}
+
+#alarme {
+  font-size: 30px;
+  text-transform: uppercase;
+  color: white;
+}
