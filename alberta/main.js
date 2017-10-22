@@ -10,13 +10,21 @@ alberta.start();
 alberta.onresult = function(event) {
     // Salvar resultado
     resultado = event.results[0][0].transcript;
-    document.getElementById('dito').innerHTML = resultado;
-    console.log('O chefe disse - ' + resultado);
     // Dividir resultado em palavras
     palavras = resultado.split(' ');
-    // Se as palavras forem obrigado/a alberta
+    // Corrigir
+    corrigir();
+    // Mostrar resultado
+    document.getElementById('dito').innerHTML = resultado;
+    // Outras respostas
     if (resultado == "obrigado alberta" || resultado == "obrigada alberta") {
       albertafala('De nada chefe');
+    }
+    if (resultado == "bom dia alberta") {
+      albertafala('Bom dia chefe');
+    }
+    if (resultado == "olá alberta") {
+      albertafala('Olá chefe');
     }
     // Se a primeira palavra for alberta
     if (palavras[0] == 'alberta') {

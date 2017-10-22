@@ -4,15 +4,23 @@ function comandos() {
     procurar();
   }
   // Se comando for recarrega
-  if (palavras[1] == "recarrega" || palavras[1] == "reinicia") {
+  if (palavras[1] == "recarrega" || palavras[1] == "reinicia" || palavras[1] == "reiniciar") {
     location.reload();
+  }
+  // Se comando for apresenta-se
+  if (palavras[1] == "apresenta-te") {
+    albertafala('Olá eu sou a Alberta, sou uma assistente pessoal, e fui criada pelo Carlos Teixeira no dia 21 de outubro de 2017.');
+  }
+  // Se comando for adeus
+  if (palavras[1] == "adeus") {
+    albertafala('Adeus chefe, volte rápido');
   }
   // Se comando for toca, procurar no youtube
   if (palavras[1] == "toca") {
     tocar();
   }
   // Se comando for onde, procurar no google maps
-  if (palavras[1] == "onde") {
+  if (palavras[1] == "onde" && palavras[2] !== "alberta") {
     onde();
   }
   // Se comando for quero, procurar no youtube
@@ -38,6 +46,10 @@ function comandos() {
   // Conta
   if (palavras [1] == "conta" && palavras[2] == "até") {
     conta();
+  }
+  // Diz
+  if (palavras [1] == "diz") {
+    diz();
   }
   // fim função
 }

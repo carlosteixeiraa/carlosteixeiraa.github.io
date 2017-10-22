@@ -11,7 +11,7 @@ function respostas() {
   if (resultado == "alberta como te chamas" || resultado == "alberta como é que te chamas" || resultado == "alberta qual é o teu nome") {
     albertafala('O nome que o chefe me deu é Alberta');
   }
-  // Como te chamas?
+  // Onde estas?
   if (resultado == "alberta onde estás") {
     albertafala('Estou sempre aqui para si chefe');
   }

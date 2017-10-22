@@ -48,5 +48,12 @@ if (palavras.length == 9 && palavras[2] !== "piano") {
   youtube();
   window.open(linkmusica,'_blank');
 }
+// Pesquisa 8 palavras
+if (palavras.length == 10 && palavras[2] !== "piano") {
+  albertafala('É para já chefe');
+  queryt = palavras[2] + ' ' + palavras[3] + ' ' + palavras[4] + ' ' + palavras[5] + ' ' + palavras[6] + ' ' + palavras[8] + ' ' + palavras[9] + ' ' + palavras[10]
+  youtube();
+  window.open(linkmusica,'_blank');
+}
 // fim função
 }
