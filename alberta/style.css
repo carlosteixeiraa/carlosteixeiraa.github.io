@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css?family=Pacifico');
+
 * {
   margin: 0;
   padding: 0;
@@ -5,27 +7,40 @@
 }
 
 body {
-  background: #263238;
+  background: rgb(232, 232, 232);
   font-family: Arial;
   color: white;
   margin-left: 7%;
   margin-right: 7%;
+  justify-content: center;
+  text-align: center;
   margin-top: 3%;
 }
 
 .alberta {
-  font-size: 64px;
-  color: #ff9800;
+  font-size: 5em;
+  color: #1976d2;
+  text-transform: capitalize;
+  font-family: 'Pacifico', cursive;
+
 }
 
 .texto {
   margin-top: 5%;
   font-size: 25px;
-  color: #e3f2fd;
+  text-transform: none;
+  color: #273039;
 }
 
 #dito {
   font-size: 18px;
-  color: #e3f2fd;
+  color: #273039;
   margin-top: 2%;
+  font-style: italic;
+  text-transform: none;
+  font-family: Arial;
+}
+
+#bola {
+  margin-top: 1%;
 }

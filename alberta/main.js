@@ -15,7 +15,7 @@ alberta.onresult = function(event) {
     // Corrigir
     corrigir();
     // Mostrar resultado
-    document.getElementById('dito').innerHTML = resultado;
+    document.getElementById('dito').innerHTML = '" ' + resultado + ' "';
     // Outras respostas
     if (resultado == "obrigado alberta" || resultado == "obrigada alberta") {
       albertafala('De nada chefe');

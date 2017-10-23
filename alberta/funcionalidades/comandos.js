@@ -7,6 +7,10 @@ function comandos() {
   if (palavras[1] == "recarrega" || palavras[1] == "reinicia" || palavras[1] == "reiniciar") {
     location.reload();
   }
+  // Se comando for abre, abre no site
+  if (palavras[1] == "abre" || palavras[1] == "abrir") {
+    abre();
+  }
   // Se comando for apresenta-se
   if (palavras[1] == "apresenta-te") {
     albertafala('Olá eu sou a Alberta, sou uma assistente pessoal, e fui criada pelo Carlos Teixeira no dia 21 de outubro de 2017.');
@@ -48,7 +52,7 @@ function comandos() {
     conta();
   }
   // Diz
-  if (palavras [1] == "diz") {
+  if (palavras [1] == "diz" || palavras[1] == "fala") {
     diz();
   }
   // fim função
