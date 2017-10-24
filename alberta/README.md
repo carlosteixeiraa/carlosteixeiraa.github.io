@@ -5,6 +5,7 @@ Uma assistente pessoal em portugues!
 A Alberta é uma assistente pessoal que até agora tem poucas funcionalidades, mas uteis,
 <li><b>Reproduzir musica</b> - Alberta toca NOMEDAMUSICA</li>
 <li><b>Procurar no google</b> - Alberta procura OQUEPROCURAR</li>
+<li><b>Abrir paginas</b></li> - Alberta abre NOMEDAPAGINA</li>
 <li><b>Procurar no google maps</b> - Alberta onde OQUEQUERSABER</li>
 <li><b>Tocar piano</b>- Alberta toca piano</li>
 <li><b>Repetir frases</b> - Alberta diz FRASE</li>

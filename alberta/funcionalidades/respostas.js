@@ -27,5 +27,9 @@ function respostas() {
   if (resultado == "alberta toca piano") {
     piano.play();
   }
+  // Faz beatbox
+  if (resultado == "alberta faz beatbox") {
+    beatbox.play();
+  }
   // fim função
 }

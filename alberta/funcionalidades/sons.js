@@ -1,5 +1,6 @@
 var plim = new Audio('sons/plim.wav');
 var piano = new Audio('sons/piano.mp3');
+var beatbox = new Audio('sons/beatbox.mp3');
 
 // Alberta Fala
 function albertafala(texto) {

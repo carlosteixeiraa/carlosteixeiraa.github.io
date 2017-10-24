@@ -18,6 +18,7 @@ function draw() {
   fill(135,206,250);
   //background(38, 50, 56);
   background(232);
+  //background(255); bramco
   noStroke();
   var volume = microfone.getLevel();
   ellipse(150, 150, volume*300, volume*300);

@@ -44,3 +44,29 @@ body {
 #bola {
   margin-top: 1%;
 }
+
+footer {
+  background-color: #263238;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  padding: 7px 35px;
+  font-family: Arial;
+  color: white;
+  font-size: 16px;
+  text-align: left;
+  height: 25px;
+  text-transform: none;
+  font-weight: normal;
+}
+
+span {
+  background-color: #263238;
+  color: #f44336;
+}
+
+.github, .github:hover, .github:visited, github:link {
+  color: snow;
+  text-decoration: none;
+}
