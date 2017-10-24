@@ -15,12 +15,16 @@ function setup() {
 }
 
 function draw() {
-  fill(3, 155, 229);
+  fill(135,206,250);
   //background(38, 50, 56);
   background(232);
   noStroke();
   var volume = microfone.getLevel();
   ellipse(150, 150, volume*300, volume*300);
+
+  fill(30,144,255);
+  noStroke();
+  ellipse(150, 150, 50, 50)
 }
 
 function windowResized() {
