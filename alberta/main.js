@@ -3,7 +3,7 @@ var resultado;
 var palavras;
 alberta.lang = 'pt-Br';
 alberta.interimResults = false;
-alberta.maxAlternatives = 5;
+alberta.maxAlternatives = 1;
 alberta.start();
 // ||
 
