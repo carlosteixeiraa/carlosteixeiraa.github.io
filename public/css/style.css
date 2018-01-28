@@ -1,0 +1,138 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+body {
+    font-family: Arial;
+    overflow: hidden;
+    background: url('../imgs/aside.gif');
+}
+
+#wrapper {
+    display: grid;
+    grid-template-columns: 2fr 8fr;
+    height: 100vh;
+}
+
+aside {
+    padding-left: 1.8em;
+    background-color: rgba(11, 85, 182, 0.425);
+    padding-top: 5em;
+}
+
+aside h1 {
+    font-size: 3em;
+    color: white;
+}
+
+aside nav {
+    margin-top: 4em;
+}
+
+aside nav ul li {
+    color: white;
+    border-left: 1.5px solid white;
+    margin-top: 0.8em;
+    height: 1.6em;
+    display: flex;
+    align-items: center;
+    padding-left: 0.3em;
+    font-size: 18px;
+    list-style: none;
+}
+
+aside nav ul li:hover {
+    border-left: 0.2em solid white;
+    transition: border-left 0.1s;
+}
+
+.t-center {
+    display: flex;
+    background: rgba(11, 85, 182, 0.425);
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+
+#h-container {
+    display: flex;
+    background: white;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;  
+}
+
+.name {
+    color: rgb(236, 83, 22);
+}
+
+.frontend {
+    color: rgb(22, 94, 153);
+}
+
+.git {
+    color: rgb(236, 83, 22);
+    text-decoration: underline;
+}
+
+.git:hover {
+    text-decoration: none;
+}
+
+#h-container img {
+    border-radius: 300px;
+    width: 10em;
+    margin: 0 1.5em 0 1.5em;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.432), 0 6px 20px 0 rgba(0, 0, 0, 0.397);
+}
+
+#h-container p {
+    width: 40vw;
+    font-size: 1.5em;
+}
+
+#s-container {
+    display: none;
+    background: white;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;  
+}
+
+#s-container h1 {
+    font-size: 3em;
+    background: rgb(22, 94, 153);
+    padding: 10px;
+    color: white;
+}
+
+#s-container p {
+    padding-left: 2em;
+    width: 40vw;
+    text-align: justify;
+    font-size: 1.5em;
+}
+
+#c-container {
+    background: white;
+    display: none;
+    height: 100vh;
+    align-items: center;
+    justify-content: center;
+}
+
+#c-container p {
+    width: 40vw;
+    font-size: 1.9em;
+}
+
+#c-container a {
+    font-size: 0.9em;
+    color: rgb(22, 94, 153);
+}

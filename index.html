@@ -1,36 +1,44 @@
 <!DOCTYPE html>
 <html>
-  <head>
+<head>
     <meta charset="utf-8">
-    <title>Carlos Teixeira - Web Developer</title>
-    <meta name="author" content="Carlos Teixeira" />
-    <meta name="description" content="Ola eu sou o Carlos e tenho 17 anos, sou especializado em front-end.">
-    <meta property="og:title" content="Carlos Teixeira - Web Developer" />
-    <meta property="og:url" content="http://carlosteixeira.github.io" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no">
-    <link rel="stylesheet" type="text/css" href="css/style.css">
-    <link rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
-  </head>
-  <body>
-    <!-- Particulas -->
-    <div id="particles-js"></div>
-    <!-- Caixa -->
-    <div class="caixa">
-      <!-- Nome -->
-      <h1>Carlos Teixeira</h1>
-      <!-- Cargo -->
-      <h5>Web Developer</h5>
-      <!-- Texto -->
-      <p>Ola eu sou o Carlos e tenho 17 anos, sou especializado em front-end mas sei algumas coisas sobre back-end, adoro NodeJS, ReactJS e Express! Sei trabalhar com SCSS, Jade, MongoDB entre outras coisas..</p>
-      <!-- Icons -->
-      <div id="icons">
-        <a target="_blank" href="https://github.com/carlosteixeiraa"><li class="fa fa-github fa-2x"></li></a>
-        <a href="mailto:carlosteixeira.email@gmail.com"><li class="fa fa-envelope fa-2x"></li></a>
-      </div>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Carlos Teixeira - Frontend Developer</title>
+    <link rel="stylesheet" href="public/css/style.css">
+    <link rel="stylesheet" href="public/css/magic.min.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+    <div id="wrapper">
+        <aside>
+            <a href="/">
+                <h1>carlos<br>teixeira</h1>
+            </a>
+            <nav>
+                <ul>
+                    <a href="#" id="home" onclick="return false;"><li>Home</li></a>
+                    <a href="#" id="skills" onclick="return false;"><li>Skills</li></a>
+                    <a href="#" id="contact" onclick="return false;"><li>Contact me</li></a>
+                </ul>
+            </nav>
+        </aside>
+        <div id="container">
+            <div id="h-container">
+                <img class="me" src="public/imgs/me.jpg">
+                <p class="about">Hello my name is <b class="name">Carlos Teixeira</b> and im a <b class="frontend">Frontend Developer</b> based in Portugal, Lisbon.</p>
+            </div>
+            <div id="s-container">
+                <h1>SKILLS</h1>
+            <p>I know how to code in <b>JavaScript</b>, <b>Ruby</b> and a little bit of <b>PHP</b>. I have experience on using <b>ReactJS</b>, <b>Express</b>, <b>Mongoose</b>, <b>SASS</b>, <b>Electron</b>, and a lot of other NodeJS packages. Im used to work with VCS (version control system) like <a href="https://github.com/carlosteixeiraa"><b class="git">GitHub</b></a> and CI (continuos integration) like <b>Travis</b>.</p>
+            </div>
+            <div id="c-container">
+                <p>If you want to talk to me email me at,
+                    <a href="mailto:hello@carlosteixeira.xyz">hello@carlosteixeira.xyz</a>
+                </p>
+            </div>
+        </div>
     </div>
-    
-    <!-- Scripts -->
-    <script src="js/particles.js"></script>
-    <script src="js/app.js"></script>
-  </body>
+    <script src="public/js/jquery.min.js"></script>
+    <script src="public/js/main.js"></script>
+</body>
 </html>
