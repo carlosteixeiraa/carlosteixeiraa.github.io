@@ -1,58 +1,130 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
     <meta charset="utf-8">
-    <meta name="theme-color" content="#0b55b6">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Carlos Teixeira - Frontend Developer</title>
-    <link rel="stylesheet" href="public/css/style.css">
-    <link rel="stylesheet" href="public/css/magic.min.css">
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <title>Carlos Teixeira | FrontEnd Developer</title>
+    <link rel="shortcut icon" href="media/favicon.png">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/hover.css">
+    <link rel="stylesheet" href="css/aos.css">
 </head>
 <body>
-    <div id="wrapper">
-        <aside>
-            <a href="/">
-                <h1>carlos<br>teixeira</h1>
-            </a>
-            <nav>
-                <ul>
-                    <a href="#" id="home" onclick="return false;"><li>Home</li></a>
-                    <a href="#" id="skills" onclick="return false;"><li>Skills</li></a>
-                    <a href="#" id="contact" onclick="return false;"><li>Contact me</li></a>
-                </ul>
+    <div class="container">
+        <nav>
+                <div class="nav-left">
+                    <img data-aos="fade-right" src="media/logo.svg" alt="Logo">
+                </div>
+                <div class="nav-right">
+                    <ul class="items" data-aos="fade-left">
+                        <a class="hvr-bounce-in active it" href="."><li>HOME</li></a>
+                        <a class="hvr-bounce-in it" href="#skills"><li>SKILLS</li></a>
+                        <a class="hvr-bounce-in it" href="#about"><li>ABOUT</li></a>
+                        <a class="hvr-bounce-in it" href="#projects"><li>PROJECTS</li></a>
+                        <a class="hvr-bounce-in it" href="#contacts"><li>CONTACTS</li></a>
+                    </ul>
+                    <ul class="burguer" data-aos="fade-left">
+                        <img id="burguer" src="media/menu.svg">
+                        <ul class="menur">
+                                <a class="hvr-bounce-in active it" href="."><li>HOME</li></a><br>
+                                <a class="hvr-bounce-in it" href="#skills"><li>SKILLS</li></a><br>
+                                <a class="hvr-bounce-in it" href="#about"><li>ABOUT</li></a><br>
+                                <a class="hvr-bounce-in it" href="#projects"><li>PROJECTS</li></a><br>
+                                <a class="hvr-bounce-in it" href="#contacts"><li>CONTACTS</li></a>
+                        </ul>
+                    </ul>
+                </div>
             </nav>
-        </aside>
-        <div id="container">
-            <div id="h-container">
-                <img class="me" src="public/imgs/me.jpg">
-                <p class="about">Hello my name is <b class="name">Carlos Teixeira</b> and im a <b class="frontend">Frontend Developer</b> based in Portugal, Lisbon.</p>
-            </div>
-            <div id="s-container">
-                <h1>SKILLS</h1>
-                <p>I know how to code in <b>JavaScript</b>, <b>Ruby</b> and a little bit of <b>PHP</b>. I have experience on using <b>ReactJS</b>, <b>Express</b>, <b>Mongoose</b>, <b>SASS</b>, <b>Electron</b>, and a lot of other NodeJS packages. Im used to work with VCS (version control system) like <a href="https://github.com/carlosteixeiraa"><b class="git">GitHub</b></a> and CI (continuos integration) like <b>Travis</b>.</p>
-            </div>
-            <div id="c-container">
-                <p>If you want to talk to me email me at,
-                    <a href="mailto:hello@carlosteixeira.xyz">hello@carlosteixeira.xyz</a>
-                </p>
-            </div>
-        </div>
+            <header>
+                <div data-aos="fade-down" class="header-ins hvr-buzz">
+                    <h1>FrontEnd Developer</h1>
+                    <h3>Make your project real in no time!</h3>
+                </div>
+            </header>
+            <section id="skills" class="skills">
+                <div data-aos="flip-left" class="html">
+                    <img class="hvr-bounce-out" src="media/html.svg" alt="HTML Logo">
+                </div>
+                <div data-aos="flip-left" class="css">
+                    <img class="hvr-bounce-out" src="media/css.svg" alt="CSS Logo">
+                </div>
+                <div data-aos="flip-left" class="js">
+                    <img class="hvr-bounce-out" src="media/js.svg" alt="JS Logo">
+                </div>
+                <div data-aos="flip-left" class="nodejs">
+                    <img class="hvr-bounce-out" src="media/nodejs.svg" alt="NodeJS Logo">
+                </div>
+                <div data-aos="flip-left" class="mongodb">
+                    <img class="hvr-bounce-out" src="media/mongodb.svg" alt="MongoDB Logo">
+                </div>
+                <div data-aos="flip-left" class="sass">
+                    <img class="hvr-bounce-out" src="media/sass.svg" alt="SASS Logo">
+                </div>
+            </section>
+            <section id="about" class="about">
+                <div data-aos="fade-right"  class="about-img">
+                    <img class="hvr-grow-rotate" src="media/me.png" alt="Me">
+                </div>
+                <div data-aos="fade-left" class="about-info">
+                    <div class="ins">
+                        <h1 class="hvr-bubble-float-bottom">HELLO</h1>
+                        <br>
+                        <p>I'm Carlos Teixeira and I'm 18 years old. I entered the code world about 5 years ago and since then I have acquired a set of skills that allow me to develop, whole web systems, from scratch, mobile apps and desktop apps, I also know how to use several CMS. I have good notions of UI and UX and I know how to program in 3 languages, JavaScript, Ruby and PHP. And there are tree thing that i love and they are ☕, 🐱, 🐧.</p>        
+                    </div>
+                </div>
+            </section>
+            <section id="projects" class="projects">
+                <div data-aos="fade-right" class="proj">
+                    <div class="proj-ins">
+                        <img class="hvr-push" src="media/projects/celia.png">
+                    </div>
+                </div>
+                <div data-aos="fade-left" class="proj">
+                    <div class="proj-ins">
+                        <img class="hvr-push" src="media/projects/alberta.png">
+                    </div>
+                </div>
+                <div data-aos="fade-right" class="proj">
+                    <div class="proj-ins">
+                        <img class="hvr-push" src="media/projects/homes.png">
+                    </div>
+                </div>
+                <div data-aos="fade-left" class="proj">
+                    <div class="proj-ins">
+                        <img class="hvr-push" src="media/projects/bau.png">
+                    </div>
+                </div>
+                <div data-aos="fade-right" class="proj">
+                    <div class="proj-ins">
+                        <img class="hvr-push" src="media/projects/quizno.png">
+                    </div>
+                </div>
+                <div data-aos="fade-left" class="proj">
+                    <div class="proj-ins">
+                        <img class="hvr-push" src="media/projects/bellia.png">
+                    </div>
+                </div>
+
+            </section>
+            <section id="contacts" class="contacts">
+                <form action="https://mailthis.to/carlosteixeira" method="POST" encType="multipart/form-data">
+                    <div  data-aos="fade-up" class="form-wrapper">
+                        <div class="form-ins">
+                            <input class="hvr-forward" type="text" name="name" placeholder="Your name">
+                            <input class="hvr-forward" type="email" name="email" placeholder="Your email">
+                            <button class="hvr-pulse-grow" type="submit">Send</button>
+                        </div>
+                        <textarea class="hvr-forward" name="message" placeholder="Enter your message here"></textarea>
+                    </div>
+                </form>
+            </section>
+            <footer>
+                <span>&copy 2018 - All rights reserved to Carlos Teixeira</span>
+            </footer>
     </div>
-    <script src="public/js/jquery.min.js"></script>
-    <script src="public/js/main.js"></script>
-    <script type="text/javascript">
-      var _paq = _paq || [];
-      /* tracker methods like "setCustomDimension" should be called before "trackPageView" */
-      _paq.push(['trackPageView']);
-      _paq.push(['enableLinkTracking']);
-      (function() {
-        var u="//vps4.carlosteixeira.xyz/piwik/";
-        _paq.push(['setTrackerUrl', u+'piwik.php']);
-        _paq.push(['setSiteId', '1']);
-        var d=document, g=d.createElement('script'), s=d.getElementsByTagName('script')[0];
-        g.type='text/javascript'; g.async=true; g.defer=true; g.src=u+'piwik.js'; s.parentNode.insertBefore(g,s);
-      })();
-    </script>
+
+    <script src="js/aos.js"></script>
+    <script src="js/jquery.min.js"></script>
+    <script src="js/main.js"></script>
 </body>
 </html>
