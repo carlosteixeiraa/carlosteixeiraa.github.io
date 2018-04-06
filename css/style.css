@@ -203,7 +203,8 @@ header h3 {
 }
 
 .contacts {
-    height: 270px;
+    height: 290px;
+    overflow: hidden;
     background: rgb(34, 34, 34);    
 }
 
@@ -276,12 +277,29 @@ footer {
     height: 40px;
     background: #2099D2;
     color: white;
+    font-size: 12px;
+    padding-left: 20px;
+    padding-right: 20px;
+    text-transform: uppercase;
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+}
+
+footer img {
+    width: 20px;
+}
+
+.footer-l {
     display: flex;
     align-content: center;
     align-items: center;
-    font-size: 14px;
-    padding-left: 20px;
-    text-transform: uppercase;
+}
+
+.footer-r {
+    display: flex;
+    align-content: center;
+    align-items: center;
+    justify-content: flex-end;
 }
 
 .menur {
@@ -339,6 +357,7 @@ nav ul img {
     
 }
 
+
 @media only screen and (max-width: 480px) {
     .skills {
         display: grid;
@@ -352,19 +371,34 @@ nav ul img {
         align-items: center;
         justify-content: center;
     } 
-}
 
-@media only screen and (max-width: 320px) {
+    .contacts .form-wrapper {
+        display: block;
+    }
+
+    #nresp {
+        display: none;
+    }
+
+    .nav-right {
+        padding-right: 20px;
+    }
+
+    .nav-left {
+        padding-left: 20px;
+    }
+
     header h1 {
-        font-weight: bold;
-    }
-    
-    header h3 {
-        font-weight: normal;
-        font-size: 14px;
+        font-size: 28px;
     }
 
-    footer span {
-        font-size: 14px;
+    header h3 {
+        font-size: 16px;
     }
 }
+@media only screen and (min-width: 480px) {
+    #resp {
+        display: none;
+    }
+}
+
