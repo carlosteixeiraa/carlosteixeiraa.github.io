@@ -25,3 +25,14 @@ $(document).ready(function() {
     return false;
   });
 });
+
+var img = true;
+$('#easteregg').on('click', () => {
+  if(img == true) {
+    $('#easteregg').attr('src', 'media/me.png');
+    img = false;
+  } else {
+    $('#easteregg').attr('src', 'media/me.jpeg');
+    img = true;
+  }
+});
